@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:t3msgraphuser/Resources/Private/Language/extConfTemplate"
+		  date="2022-05-12T16:25:10Z" product-name="t3msgraphuser">
+		<header/>
+		<body>
+			<trans-unit id="categories.client" resname="categories.client">
+				<source>Client configuration</source>
+			</trans-unit>
+			<trans-unit id="clientId" resname="clientId">
+				<source>Client ID</source>
+			</trans-unit>
+			<trans-unit id="clientSecret" resname="clientSecret">
+				<source>Client secret</source>
+			</trans-unit>
+			<trans-unit id="tenant" resname="tenant">
+				<source>Tenant</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
