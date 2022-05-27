@@ -1,0 +1,7 @@
+.Build/
+.idea/
+composer.lock
+
+# Ignore generated documentation
+# source <(docker run --rm t3docs/render-documentation show-shell-commands); dockrun_t3rd makehtml;
+Documentation-GENERATED-temp/
