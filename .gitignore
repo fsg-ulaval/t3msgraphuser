@@ -1,5 +1,6 @@
 .Build/
 .idea/
+Build/testing-docker/.env
 composer.lock
 
 # Ignore generated documentation

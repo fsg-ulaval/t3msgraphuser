@@ -14,7 +14,9 @@
 		"thenetworg/oauth2-azure": "^2.0"
 	},
 	"require-dev": {
-		"typo3/testing-framework": "^6.8"
+		"typo3/testing-framework": "^6.8",
+		"typo3/coding-standards": "^0.2.0",
+		"phpstan/phpstan": "^0.12.37"
 	},
 	"autoload": {
 		"psr-4": {
@@ -31,7 +33,11 @@
 	},
 	"config": {
 		"vendor-dir": ".Build/vendor",
-		"bin-dir": ".Build/bin"
+		"bin-dir": ".Build/bin",
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		}
 	},
 	"scripts": {
 		"post-autoload-dump": [
