@@ -57,11 +57,6 @@ trait AuthenticationTrait
                 [
                     'clientId'               => $this->extensionConfiguration->getClientId(),
                     'clientSecret'           => $this->extensionConfiguration->getClientSecret(),
-                    // 'scopes'                 => GeneralUtility::trimExplode(
-                    //     ',',
-                    //     $this->extensionConfiguration->getClientScopes(),
-                    //     true
-                    // ),
                     'defaultEndPointVersion' => Azure::ENDPOINT_VERSION_2_0,
                 ]
             );

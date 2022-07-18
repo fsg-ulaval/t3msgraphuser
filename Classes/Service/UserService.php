@@ -18,11 +18,21 @@ namespace FSG\MsGraphUser\Service;
  */
 
 use FSG\MsGraphUser\Traits\AuthenticationTrait;
+use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 
+/**
+ *
+ */
 class UserService
 {
     use AuthenticationTrait;
 
+    /**
+     * @param string $identifier
+     *
+     * @return void
+     * @throws IdentityProviderException
+     */
     public function getUser(string $identifier)
     {
         $provider    = $this->getProvider();
