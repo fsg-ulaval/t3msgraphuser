@@ -30,10 +30,10 @@ class UserService
     /**
      * @param string $identifier
      *
-     * @return void
+     * @return array
      * @throws IdentityProviderException
      */
-    public function getUser(string $identifier)
+    public function getUser(string $identifier): array
     {
         $provider    = $this->getProvider();
         $accessToken = $provider->getAccessToken('client_credentials',
